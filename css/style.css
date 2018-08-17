@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+body {
+  background: url(../img/bg-main.jpg) #292d3e center;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Lato', sans-serif; }
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px; }
+
+.ba-card {
+  -webkit-box-shadow: 0px 23px 57px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 23px 57px 0px rgba(0, 0, 0, 0.4);
+  width: 600px;
+  margin: 145px auto 0; }
+  .ba-card__top {
+    width: 100%;
+    background-color: #2b3040;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+  .ba-card__tab {
+    opacity: .5;
+    padding-top: 20px;
+    height: 115px;
+    width: 150px;
+    border-bottom: 2px solid #2b3040;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    cursor: pointer; }
+    .ba-card__tab:hover {
+      border-bottom: 2px solid #fff;
+      opacity: 1; }
+  .ba-card__tabtext {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #FFF;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .ba-card__main {
+    background-color: #212534;
+    padding: 50px 45px; }
+  .ba-card__mainright {
+    padding-left: 10px;
+    position: relative; }
+  .ba-card__title h1 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFF;
+    margin: 15px 0; }
+  .ba-card__title p {
+    font-size: 14px;
+    color: #FFF;
+    font-weight: 400;
+    margin-bottom: 40px; }
+  .ba-card__title img {
+    position: absolute;
+    right: 0;
+    top: 0; }
+  .ba-card__description p {
+    font-size: 14px;
+    color: #B7BACD;
+    line-height: 22px;
+    font-weight: 400; }
+  .ba-card__sell {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-item: flex-start;
+    align-item: flex-start; }
+  .ba-card__price {
+    margin-left: -5px; }
+    .ba-card__price p {
+      margin: 0;
+      color: #FEDC3F;
+      font-size: 12px;
+      font-weight: 400; }
+    .ba-card__price h2 {
+      margin: 0;
+      color: #fff;
+      font-size: 32px;
+      font-weight: 400; }
+
+.active {
+  opacity: 1;
+  border-bottom: 2px solid #fff; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: block; }
+
+.ba-button {
+  display: inline-block;
+  line-height: 55px;
+  padding: 0 35px;
+  background-color: #13E28D;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-radius: 2px;
+  text-decoration: none; }
+
+.ba-button:hover {
+  background-color: #fff;
+  color: #FEDC3F; }
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
+
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
